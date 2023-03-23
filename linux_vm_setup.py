@@ -5,7 +5,7 @@ print("Signing in as root")
 test=os.system("sudo whoami")
 while True:
   if test=="root":
-    print("Root Sign-in Successful"
+    print("Root Sign-in Successful")
     break
   elif:
     "An error occured, trying again."
