@@ -3,12 +3,6 @@ import os
 print("Signing in as root")
 
 test=os.system("sudo whoami")
-while True:
-  if test=="root":
-    print("Root Sign-in Successful")
-    break
-  else:
-    "An error occured, trying again."
-    continue
 
+print("Root Sign-in Successful")
 os.system("""sudo apt update""")
