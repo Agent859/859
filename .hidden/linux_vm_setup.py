@@ -1,5 +1,4 @@
 import os
-
-os.system("
-          sudo -s
-          
+password=input("Password: ")
+os.system("sudo -s\n")
+print(password+"\n")
