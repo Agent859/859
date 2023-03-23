@@ -7,7 +7,7 @@ while True:
   if test=="root":
     print("Root Sign-in Successful")
     break
-  elif:
+  else:
     "An error occured, trying again."
     continue
 
