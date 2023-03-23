@@ -1,5 +1,14 @@
 import os
 
-os.system("""sudo whoami
+print("Signing in as root")
 
-sudo apt update""")
+test=os.system("sudo whoami")
+while True:
+  if test=="root":
+    print("Root Sign-in Successful"
+    break
+  elif:
+    "An error occured, trying again."
+    continue
+
+os.system("""sudo apt update""")
