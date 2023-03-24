@@ -21,6 +21,14 @@ cd ..
 echo Github Repositories installed
 echo Starting apt installs
 sudo apt install steghide -y
-echo Apt installs complete
+sudo apt install beef -y
+echo apt installs complete
+echo setting up Proxychains
+
+---OPEN INFO FILE---
+
+nano /etc/proxychains.conf
+echo Proxychain setup complete
+
 
 """)
