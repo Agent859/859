@@ -11,11 +11,16 @@ sudo systemctl enable docker --now
 sudo usermod -aG docker $USER
 echo Docker Install complete.
 echo installing github repositories
-mkdir gihub
+mkdir github
 cd github
 git clone https://github.com/JohnHammond/msdt-follina
 git clone https://github.com/paranoidninja/Brute-Ratel-C4-Community-Kit
 git clone https://github.com/H1R0GH057/Anonymous
-
+git clone https://github.com/debajyotidasgupta/blackeye.git
+cd ..
+echo Github Repositories installed
+echo Starting apt installs
+sudo apt install steghide -y
+echo Apt installs complete
 
 """)
