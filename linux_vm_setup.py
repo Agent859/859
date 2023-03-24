@@ -25,7 +25,7 @@ sudo apt install beef -y
 echo apt installs complete
 echo setting up Proxychains
 
----OPEN INFO FILE---
+echo ---OPEN INFO FILE---
 
 nano /etc/proxychains.conf
 echo Proxychain setup complete
