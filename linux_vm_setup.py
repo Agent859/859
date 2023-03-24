@@ -2,7 +2,12 @@ import os
 
 print("Signing in as root")
 
-test=os.system("sudo whoami")
+test=os.system("""echo Signing in as root
 
-print("Root Sign-in Successful")
-os.system("""sudo apt update""")
+sudo whoami
+
+echo Root Sign-in Successful
+
+echo Updating packages
+
+sudo apt update""")
