@@ -1,6 +1,7 @@
 import os
 
 test=os.system("""echo Signing in as root
+cd ~
 sudo whoami
 echo Root Sign-in Successful
 echo Updating packages
@@ -26,7 +27,7 @@ echo apt installs complete
 echo setting up Proxychains
 
 echo ---OPEN INFO FILE---
-
+cd ../..
 nano /etc/proxychains.conf
 echo Proxychain setup complete
 
